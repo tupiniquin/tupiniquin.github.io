@@ -1,17 +1,19 @@
 ---
 layout: post
-title: Primeiro Post
+title: Seja bem vindo
 subtitle: Tupiniquin Project
 #gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [Welcome]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [MarkDown Teste](https://tupiniquin.com.br/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Seja bem vindo(a) a pagina do projeto Tupiniquin! Aqui iremos compartilhar muito conhecimento sobre tecnologia!
 
 **Here is some bold text**
 
 ## Here is a secondary heading
 
-Testeeeeeeeeeeeeeeeeeeeeeeeeeeee
+Somos simples e raiz. Temos como um único objetivo, compartilhar todo o tipo de conhecimento em tecnologia!!!
+
+< Tupiniquin Project >
