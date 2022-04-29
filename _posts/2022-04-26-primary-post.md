@@ -10,10 +10,7 @@ comments: true
 
 Seja bem vindo(a) a pagina do projeto Tupiniquin! Aqui iremos compartilhar muito conhecimento sobre tecnologia!
 
-**Here is some bold text**
 
-## Here is a secondary heading
+## Somos simples e raiz. Temos como um único objetivo, compartilhar todo o tipo de conhecimento em tecnologia!!!
 
-Somos simples e raiz. Temos como um único objetivo, compartilhar todo o tipo de conhecimento em tecnologia!!!
-
-< Tupiniquin Project >
+**< Tupiniquin Project >**
