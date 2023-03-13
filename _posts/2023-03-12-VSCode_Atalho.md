@@ -11,10 +11,15 @@ Todos os atalhos do VS Code!
 
 ## Geral
 Ctrl + Shift + P, paleta de comando F1 Show
+
 Ctrl + P Quick Open, vá para o arquivo ...
+
 Ctrl + Shift + N Nova janela / instância
+
 Ctrl + Shift + W Fechar janela / instância
+
 Ctrl +, configurações do usuário
+
 Ctrl + K Ctrl + S Atalhos de teclado
 
 ## Edição básica
