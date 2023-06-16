@@ -32,6 +32,12 @@ Para fazer o download do Visual Studio Code: https://code.visualstudio.com
 
 - Sublime Text
 
+<p float="left">
+
+ <img src="https://seekvectorlogo.net/wp-content/uploads/2020/02/sublime-text-vector-logo.png" width="200" />
+
+</p>
+
 Sem dúvida o Sublime Text antes do VSCode surgir era o editor mais famoso entre nós mortais. Portanto até hoje ainda é muito usado por milhares de desenvolvedores.
 
 O Sublime Text é um editor de código-fonte que é multi-plataforma e com uma interface de programação de aplicativos (API) para linguagem python. Dessa forma sendo muito usado por desenvolvedores python.
@@ -42,6 +48,12 @@ Para fazer o download do Sublime Text: https://www.sublimetext.com
 
 
 - Atom
+
+<p float="left">
+
+ <img src="https://www.codigofonte.com.br/wp-content/uploads/2015/03/Atom_Editor_de_Textos_logo.jpg" width="200" />
+
+</p>
 
 O Atom é um editor de código-fonte de código aberto que está disponível nos sistemas operacionais Windows, Linux e MacOS.
 
@@ -54,6 +66,12 @@ Para fazer o download do Atom: https://atom.io
 
 - Brackets
 
+<p float="left">
+
+ <img src="https://idroot.us/wp-content/uploads/2020/08/Bracket-logo.png" width="200" />
+
+</p>
+
 O Brackets é um editor de código fonte focado no desenvolvimento web.
 
 Criado pela Adobe Systems, ele é um software de código aberto e assim como o Atom é licenciado pelo MIT (Instituto de Tecnologia de Massachusetts).
@@ -64,6 +82,12 @@ Para fazer o download do Brackets: http://brackets.io
 
 
 - CodePen
+
+<p float="left">
+
+ <img src="https://res.cloudinary.com/css-tricks/images/f_auto,q_auto/v1642454948/codepen-wordmark-display-inside-black@10x_16397a56ea/codepen-wordmark-display-inside-black@10x_16397a56ea.png?_i=AA" width="200" />
+
+</p>
 
 O CodePen é um alternativa online a editores de código. Ele é um editor de código online, ou seja, você pode editar seus códigos no navegador.
 
