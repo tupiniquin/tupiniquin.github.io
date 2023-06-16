@@ -13,6 +13,12 @@ Segue a lista com alguns editores de texto para você saborear!
 
 - Visual Studio Code (VSCode)
 
+<p float="left">
+
+ <img src="https://www.shanebart.com/wp-content/uploads/2019/05/5k4h36j3h4j.png" width="200" />
+
+</p>
+
 Desenvolvido pela Microsoft, o Visual Studio Code é um editor de código-fonte e provavelmente o mais utilizado da atualidade.
 
 É um projeto de código aberto e está disponível gratuitamente para download nas plataformas Windows, MacOS e Linux.
