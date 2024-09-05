@@ -1100,3 +1100,10 @@ pre {
     display: inline-block;
   }
 }
+
+.post-header {
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Ajuste conforme necessário */
+  width: 100%;
+}
