@@ -1100,12 +1100,3 @@ pre {
     display: inline-block;
   }
 }
-
-.post-header {
-  text-align: center;
-}
-
-.post-header img {
-  width: 100%;
-  height: auto;
-}
