@@ -1102,12 +1102,10 @@ pre {
 }
 
 .post-header {
-  background-size: cover;
-  background-position: center;
-  height: 200px; /* Ajuste a altura conforme necessário */
-  width: 100%;
+  text-align: center;
 }
 
 .post-header img {
-  display: none; /* Esconde a imagem para usar a imagem de capa como fundo */
+  width: 100%;
+  height: auto;
 }
