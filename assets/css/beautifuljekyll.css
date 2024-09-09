@@ -1116,3 +1116,18 @@ pre {
 .home-header h1 {
   font-size: 2.5em;
 }
+
+.post-preview {
+    margin-bottom: 30px;
+}
+
+.post-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.post-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
