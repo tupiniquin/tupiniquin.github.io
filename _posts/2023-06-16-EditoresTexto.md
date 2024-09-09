@@ -6,6 +6,7 @@ subtitle: Código maroto!
 gh-badge: [star, fork, follow]
 tags: [Editor]
 comments: true
+image: https://media.licdn.com/dms/image/v2/D4D12AQGaZEjZ6X6DUQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1683839485446?e=2147483647&v=beta&t=aBauNSQ_qmQEtFGZOLI3uRcPU2nHTXesiCRpeCIo4vw](https://raw.githubusercontent.com/khaosdoctor/blog-assets/master/images/2021/01/external-content.duckduckgo-1.jpg
 ---
 
 Segue a lista com alguns editores de texto para você saborear!
