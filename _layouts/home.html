@@ -6,8 +6,9 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 
+<!-- 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--------------------------------
-    {% for post in site.posts %}
+   {% for post in site.posts %}
       <article class="post-preview">
         {% if post.image %}
         <div class="post-image">
@@ -18,13 +19,21 @@ layout: page
         <p>{{ post.excerpt }}</p>
       </article>
     {% endfor %}
+
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--------------------------------
+-->
 
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">
 
-    <!--{%- capture thumbnail -%}
+    {% if post.image %}
+    <div class="post-image">
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+    </div>
+    {% endif %}
+      
+    {%- capture thumbnail -%}
       {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
       {% elsif post.cover-img %}
@@ -35,7 +44,7 @@ layout: page
         {% endif %}
       {% else %}
       {% endif %}
-    {% endcapture %}-->
+    {% endcapture %}
     {% assign thumbnail=thumbnail | strip %}
 
     {% if site.feed_show_excerpt == false %}
