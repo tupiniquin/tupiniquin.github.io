@@ -19,12 +19,12 @@ layout: page
       </article>
     {% endfor %}
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--------------------------------
-<!--
+
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">
 
-    {%- capture thumbnail -%}
+    <!--{%- capture thumbnail -%}
       {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
       {% elsif post.cover-img %}
@@ -35,7 +35,7 @@ layout: page
         {% endif %}
       {% else %}
       {% endif %}
-    {% endcapture %}
+    {% endcapture %}-->
     {% assign thumbnail=thumbnail | strip %}
 
     {% if site.feed_show_excerpt == false %}
@@ -47,7 +47,7 @@ layout: page
     </div>
     {% endif %}
     {% endif %}
--->
+
     <a href="{{ post.url | absolute_url }}">
       <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
