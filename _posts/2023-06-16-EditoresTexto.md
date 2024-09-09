@@ -6,7 +6,7 @@ subtitle: Código maroto!
 gh-badge: [star, fork, follow]
 tags: [Editor]
 comments: true
-image: https://i.ytimg.com/vi/J6_2pzOF3vs/maxresdefault.jpg
+image: https://www.solvetic.com/uploads/articles/monthly_11_2016/c3b017c0da28ca0d2daf875e24c0bbd9.png
 ---
 
 Segue a lista com alguns editores de texto para você saborear!
