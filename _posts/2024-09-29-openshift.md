@@ -21,7 +21,7 @@ Além disso, o OpenShift Sandbox é gratuito, permitindo que equipes explorem se
 
 Com o OpenShift Sandbox, as empresas podem inovar com agilidade, acelerar o desenvolvimento e otimizar a gestão de seus ambientes de nuvem e on-premises, sem a necessidade de lidar com instalações ou manutenção de infraestrutura local, garantindo ao mesmo tempo boas práticas de segurança e governança.
 
-[ ESTE POST FOI FEITO PELO NOSSO TUTOR: FELIPE CEZAR ]
+[ ESTE POST FOI FEITO PELO NOSSO TUTOR: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) ]
 
 ## Somos simples e raiz. Temos como um único objetivo, compartilhar todo o tipo de conhecimento em tecnologia!!!
 
