@@ -52,6 +52,8 @@ A integração dos serviços do Azure DevOps traz diversos benefícios para as e
 
 Azure DevOps representa uma solução robusta e integrada para o desenvolvimento de software. Com seus diversos componentes, oferece às equipes as ferramentas necessárias para planejar, desenvolver, testar e entregar aplicações de forma eficiente e colaborativa. Seja para projetos pequenos ou para grandes empresas, Azure DevOps se adapta às necessidades de qualquer equipe de desenvolvimento, promovendo a agilidade, a colaboração e a qualidade no ciclo de vida do desenvolvimento de software.
 
+[ ESTE POST FOI FEITO PELO NOSSO TUTOR: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) ]
+
 ## Somos simples e raiz. Temos como um único objetivo, compartilhar todo o tipo de conhecimento em tecnologia!!!
 
 **< Tupiniquin Project >**
