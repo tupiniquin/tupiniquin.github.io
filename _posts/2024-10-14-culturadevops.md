@@ -51,6 +51,8 @@ Conclusão
 
 DevOps não é apenas um conjunto de ferramentas ou práticas; é uma mudança cultural que requer compromisso, paciência e persistência. Ao adotar a filosofia DevOps, as organizações podem melhorar significativamente a colaboração entre as equipes, aumentar a eficiência dos processos e entregar produtos de alta qualidade mais rapidamente. Se você está começando sua jornada em DevOps, lembre-se de que a chave para o sucesso é a melhoria contínua e a aprendizagem constante.
 
+[ ESTE POST FOI FEITO PELO NOSSO TUTOR: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) ]
+
 ## Somos simples e raiz. Temos como um único objetivo, compartilhar todo o tipo de conhecimento em tecnologia!!!
 
 **< Tupiniquin Project >**
