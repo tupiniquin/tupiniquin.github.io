@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Voce sabe o que é a cultura DevOps?
-subtitle: DevOps para Iniciantes: Entendendo os Fundamentos
+subtitle: "DevOps para Iniciantes: Entendendo os Fundamentos"
 #gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [DevOps]
