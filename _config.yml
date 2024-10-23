@@ -15,7 +15,7 @@ author: < T >
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  COLABORE: "colabore"
+  #COLABORE: "colabore"
   Social:
     - TupiniCast: "http://www.youtube.com/@TupiniquinProject"
     - Discord: "https://discord.gg/Bf9Msmhe"
