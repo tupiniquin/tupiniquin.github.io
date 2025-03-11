@@ -21,7 +21,7 @@ Gostaríamos de agradecer à UFR e aos acadêmicos do curso de Sistemas de Infor
 
 Se você perdeu a palestra ou deseja revê-la, disponibilizamos a gravação no canal do Tupiniquin Project. Confira no link abaixo:
 
-![Link da live](https://www.youtube.com/watch?v=rPyhBWma7Do&t=9181s)
+(https://www.youtube.com/watch?v=rPyhBWma7Do&t=9181s)
 
 Esperamos vê-los nos próximos eventos!
 
