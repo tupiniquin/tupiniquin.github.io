@@ -21,12 +21,13 @@ Gostaríamos de agradecer à UFR e aos acadêmicos do curso de Sistemas de Infor
 
 Se você perdeu a palestra ou deseja revê-la, disponibilizamos a gravação no canal do Tupiniquin Project. Confira no link abaixo:
 
-https://www.youtube.com/watch?v=rPyhBWma7Do&t=9181s
+[Link da live: [Canal TupiniCast](https://www.youtube.com/live/rPyhBWma7Do?si=2jSIm-5TMq0cORE1) ]
 
 Esperamos vê-los nos próximos eventos!
 
 
-[ ESTE POST FOI FEITO PELO NOSSOS IDEALIZADORES: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) E [RENATO AGUIAR](linkedin.com/in/renatoaguiar88) ] 
+[ ESTE POST FOI FEITO PELO NOSSOS IDEALIZADORES: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) ] 
+[ E [RENATO AGUIAR](linkedin.com/in/renatoaguiar88) ]
 
 ## Somos simples e raiz. Temos como um único objetivo, democratizar o acesso e compartilhar todo o tipo de conhecimento em tecnologia!!!
 
