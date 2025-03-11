@@ -26,8 +26,7 @@ Se você perdeu a palestra ou deseja revê-la, disponibilizamos a gravação no 
 Esperamos vê-los nos próximos eventos!
 
 
-[ ESTE POST FOI FEITO PELO NOSSOS IDEALIZADORES: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) ] 
-[ E [RENATO AGUIAR](linkedin.com/in/renatoaguiar88) ]
+[ ESTE POST FOI FEITO PELO NOSSOS IDEALIZADORES: [FELIPE CEZAR](https://www.linkedin.com/in/felipe-cezar-689809239) E [RENATO AGUIAR](https://www.linkedin.com/in/renatoaguiar88) ]
 
 ## Somos simples e raiz. Temos como um único objetivo, democratizar o acesso e compartilhar todo o tipo de conhecimento em tecnologia!!!
 
