@@ -6,10 +6,10 @@ subtitle: Com Azure DevOps, navegue com confiança pelo ciclo de vida da sua apl
 gh-badge: [star, fork, follow]
 tags: [Azure]
 comments: true
-image: https://cdn.softwarereviews.com/production/logos/offerings/3733/large/Azure-DevOps-3.png?1617158771
+image: https://amerlin.keantex.com/wp-content/uploads/2022/08/1_8orwInnxqPRhrcKf9aOo9Q.png
 ---
 
-![Azure](https://cdn.softwarereviews.com/production/logos/offerings/3733/large/Azure-DevOps-3.png?1617158771)
+![Azure](https://amerlin.keantex.com/wp-content/uploads/2022/08/1_8orwInnxqPRhrcKf9aOo9Q.png)
 
 # Azure DevOps: Uma Plataforma Integrada para Desenvolvimento Ágil e Entrega Contínua
 
