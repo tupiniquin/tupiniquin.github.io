@@ -6,10 +6,10 @@ subtitle: Automatize e Otimize Seu CI/CD com Fluxos de Trabalho Personalizáveis
 gh-badge: [star, fork, follow]
 tags: [GitHub, GitHub Actions]
 comments: true
-image: https://miro.medium.com/v2/resize:fit:720/format:webp/0*f2lexXOuMwSzq9qW.png
+image: https://pisquare.fr/wp-content/uploads/2022/05/h2jfrvzrbyh1yff2n3wfu2hkqqps6x_uvqo-1024x524.png
 ---
 
-![GitHub Actions](https://miro.medium.com/v2/resize:fit:720/format:webp/0*f2lexXOuMwSzq9qW.png)
+![GitHub Actions](https://pisquare.fr/wp-content/uploads/2022/05/h2jfrvzrbyh1yff2n3wfu2hkqqps6x_uvqo-1024x524.png)
 
 # GitHub Actions: Transforme Seu Fluxo de Trabalho DevOps
 
