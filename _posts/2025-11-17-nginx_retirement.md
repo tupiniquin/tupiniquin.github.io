@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ingress Controller NGINX em Retirment
+title: Ingress Controller NGINX em Retirement
 subtitle: O fim de uma era - o controlador de Ingress NGINX entra em retirement — e o que isso significa para você
 gh-badge: [star, fork, follow]
 tags: [NGINX, Kubernetes]
@@ -12,16 +12,16 @@ image: https://cdn.prod.website-files.com/681e366f54a6e3ce87159ca4/6877c7726ae18
 
 # Introdução
 
-Nos últimos anos, o controlador Ingress‑NGINX tornou-se praticamente o padrão de fato para expor workloads HTTP/HTTPS dentro de clusters Kubernetes, especialmente em ambientes cloud-agnósticos ou híbridos. Agora, a comunidade do Kubernetes anuncia o seu **retirement**, com data-limite de manutenção em **março de 2026**. :contentReference[oaicite:2]{index=2}  
+Nos últimos anos, o controlador Ingress‑NGINX tornou-se praticamente o padrão de fato para expor workloads HTTP/HTTPS dentro de clusters Kubernetes, especialmente em ambientes cloud-agnósticos ou híbridos. Agora, a comunidade do Kubernetes anuncia o seu **retirement**, com data-limite de manutenção em **março de 2026**.  
 Este artigo examina o que está mudando, por que isso importa para infraestruturas de plataforma que você, como DevOps Engineer/Platform Engineer, provavelmente gerencia, e qual deve ser o plano de migração — com ênfase na adoção do Gateway API, o sucessor recomendado.
 
 # O que está acontecendo?
 
 A publicação oficial no blog do Kubernetes informa que:  
-- O projeto Ingress-NGINX está em modo de “best-effort maintenance” até **março de 2026**. :contentReference[oaicite:4]{index=4}  
-- Após essa data, **não haverá mais releases, correções de bugs nem atualizações de segurança** para esse controlador. :contentReference[oaicite:5]{index=5}  
-- Os artefatos (imagens, Helm charts, chart repos, etc.) permanecerão disponíveis para referência, mas o repositório passará a read-only. :contentReference[oaicite:6]{index=6}  
-- O time de manutenção da comunidade não conseguiu mais escalar suporte suficiente para o projeto, e as dívidas técnicas (e de segurança) acumuladas superam o limiar aceitável para continuar o projeto em modo ativo. :contentReference[oaicite:7]{index=7}  
+- O projeto Ingress-NGINX está em modo de “best-effort maintenance” até **março de 2026**.  
+- Após essa data, **não haverá mais releases, correções de bugs nem atualizações de segurança** para esse controlador.  
+- Os artefatos (imagens, Helm charts, chart repos, etc.) permanecerão disponíveis para referência, mas o repositório passará a read-only.  
+- O time de manutenção da comunidade não conseguiu mais escalar suporte suficiente para o projeto, e as dívidas técnicas (e de segurança) acumuladas superam o limiar aceitável para continuar o projeto em modo ativo.  
 
 Em resumo: se sua plataforma ainda usa Ingress-NGINX, é hora de se preparar para a transição. O controlador continuará funcionando — **mas sem garantias de segurança ou correções** — o que representa um risco de longo-prazo, principalmente em ambientes corporativos.
 
@@ -29,28 +29,28 @@ Em resumo: se sua plataforma ainda usa Ingress-NGINX, é hora de se preparar par
 
 Como DevOps Engineer / Platform Engineer — e considerando que você já trabalha com clusters Kubernetes, pipelines, GitOps, etc — aqui estão os impactos práticos que você deve considerar:
 
-## Risco de segurança e compliance  
+### Risco de segurança e compliance  
 Sem correções de vulnerabilidade (CVE) após março-2026, qualquer falha descoberta passará a ser **não corrígivel** no contexto oficial. Dependendo da sua política de segurança, isso pode significar risco não mitigado ou falha em auditoria.
 
-## Suporte e vida útil  
+### Suporte e vida útil  
 Mesmo que o controlador continue funcional, a falta de manutenção significa que novas versões de Kubernetes, mudanças de API, ou requisitos de infraestrutura podem quebrar ou deixar de funcionar corretamente com ele.
 
-## End-of-life = dívida técnica  
+### End-of-life = dívida técnica  
 Manter Ingress-NGINX além do suporte oficial representa acumular dívida técnica. Novas funcionalidades (por exemplo, suporte mais rico a roteamento, ambientes multi-tenant, políticas de tráfego avançadas) dificilmente serão atendidas. Além disso, migrar sob pressão no último momento implica mais custo e risco.
 
 # Recomendação de migração: adote o Gateway API
 
-A publicação oficial do Kubernetes recomenda explicitamente migrar para o Gateway API. :contentReference[oaicite:8]{index=8}
+A publicação oficial do Kubernetes recomenda explicitamente migrar para o Gateway API.
 
-## O que é o Gateway API?  
-O Gateway API é um conjunto de recursos do Kubernetes (CRDs) criado pelo grupo SIG‑Network para evolução da gestão de tráfego (ingress, load-balancing, roteamento L4/L7) em ambientes Kubernetes. :contentReference[oaicite:10]{index=10}  
+### O que é o Gateway API?  
+O Gateway API é um conjunto de recursos do Kubernetes (CRDs) criado pelo grupo SIG‑Network para evolução da gestão de tráfego (ingress, load-balancing, roteamento L4/L7) em ambientes Kubernetes.  
 Principais características:  
-- Modelagem orientada a papéis (infra-estrutura, operador de cluster, desenvolvedor de aplicação). :contentReference[oaicite:11]{index=11}  
-- Recursos distintos como GatewayClass, Gateway, HTTPRoute/GRPCRoute, que permitem separar responsabilidades. :contentReference[oaicite:12]{index=12}  
-- Suporte para roteamento mais expressivo (cabeçalhos, weights, múltiplos protocolos, caminhos etc) sem depender de anotações específicas de controlador. :contentReference[oaicite:13]{index=13}  
-- Portabilidade entre implementações, reduzindo dependência de controlador específico. :contentReference[oaicite:14]{index=14}  
+- Modelagem orientada a papéis (infra-estrutura, operador de cluster, desenvolvedor de aplicação).  
+- Recursos distintos como GatewayClass, Gateway, HTTPRoute/GRPCRoute, que permitem separar responsabilidades.  
+- Suporte para roteamento mais expressivo (cabeçalhos, weights, múltiplos protocolos, caminhos etc) sem depender de anotações específicas de controlador.  
+- Portabilidade entre implementações, reduzindo dependência de controlador específico.  
 
-## Por que migrar para ele agora 
+### Por que migrar para ele agora 
 - Você aproveita uma API moderna, suportada, com comunidade ativa e com roadmap — reduzindo risco de entrar em “legado” novamente.  
 - Alinha sua plataforma com práticas de DevOps e Platform Engineering: abstração, controle de papéis, governança de tráfego, multi-tenant.  
 - Migração antes de março 2026 dá uma janela confortável para planejamento, execução e mitigação de riscos — e evita fazer tudo na “corrida do fim”.  
@@ -62,7 +62,7 @@ Aqui vai um esqueleto de plano de ação que você pode adaptar ao seu contexto.
 
 1. **Inventário e análise de Ingress**  
    - Identifique todos os objetos de Ingress implementados por Ingress-NGINX nos seus clusters (por exemplo com `kubectl get ingress --all-namespaces -l app.kubernetes.io/name=ingress-nginx` ou selector equivalente).  
-   - Verifique tags, anotações, snippets de NGINX usados — muitos controladores NGINX toleram “snippets” que são pouco portáveis ou seguros. A publicação menciona justamente que "snippets" foram uma das dívidas técnicas. :contentReference[oaicite:15]{index=15}  
+   - Verifique tags, anotações, snippets de NGINX usados — muitos controladores NGINX toleram “snippets” que são pouco portáveis ou seguros. A publicação menciona justamente que "snippets" foram uma das dívidas técnicas. 
    - Classifique os casos: simples (host+path) vs avançados (weights, mirroring, custom NGINX config).  
 
 2. **Escolha piloto de Gateway API**  
@@ -74,7 +74,7 @@ Aqui vai um esqueleto de plano de ação que você pode adaptar ao seu contexto.
    - Para cada Ingress existente, mapeie para recursos equivalentes no Gateway API. Por exemplo:  
      * Ingress host+path → HTTPRoute host/path associado a Gateway.  
      * Listeners, TLS, backend weights → propriedades do Gateway/Route conforme Gateway API.  
-   - Use guias de migração (há documentação no site oficial). :contentReference[oaicite:16]{index=16}  
+   - Use guias de migração (há documentação no site oficial).  
    - Documente e adote padrões na sua plataforma (namespace padrão, Gateway compartilhado, RBAC, etc).
 
 4. **Roll-out e testes**  
@@ -99,10 +99,10 @@ Se você já utiliza Kubernetes em produção, este é o momento ideal para inic
 # Fontes utilizadas para elaboração do artigo:
 
 **Documentação Oficial Kubernetes**  
-- https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/
+- [https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
 
 **Blog Oficial Kubernetes**  
-- https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/
+- [https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/](https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/)
 
 
 \[ ESTE POST FOI FEITO PELO NOSSO TUTOR: [FELIPE CEZAR](https://www.linkedin.com/in/felipecezar88) ]
