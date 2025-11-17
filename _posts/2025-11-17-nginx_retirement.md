@@ -15,6 +15,8 @@ image: https://cdn.prod.website-files.com/681e366f54a6e3ce87159ca4/6877c7726ae18
 Nos últimos anos, o controlador Ingress‑NGINX tornou-se praticamente o padrão de fato para expor workloads HTTP/HTTPS dentro de clusters Kubernetes, especialmente em ambientes cloud-agnósticos ou híbridos. Agora, a comunidade do Kubernetes anuncia o seu **retirement**, com data-limite de manutenção em **março de 2026**.  
 Este artigo examina o que está mudando, por que isso importa para infraestruturas de plataforma que você, como DevOps Engineer/Platform Engineer, provavelmente gerencia, e qual deve ser o plano de migração — com ênfase na adoção do Gateway API, o sucessor recomendado.
 
+
+
 # O que está acontecendo?
 
 A publicação oficial no blog do Kubernetes informa que:  
@@ -24,6 +26,8 @@ A publicação oficial no blog do Kubernetes informa que:
 - O time de manutenção da comunidade não conseguiu mais escalar suporte suficiente para o projeto, e as dívidas técnicas (e de segurança) acumuladas superam o limiar aceitável para continuar o projeto em modo ativo.  
 
 Em resumo: se sua plataforma ainda usa Ingress-NGINX, é hora de se preparar para a transição. O controlador continuará funcionando — **mas sem garantias de segurança ou correções** — o que representa um risco de longo-prazo, principalmente em ambientes corporativos.
+
+
 
 # Por que isso afeta sua plataforma?
 
@@ -37,6 +41,8 @@ Mesmo que o controlador continue funcional, a falta de manutenção significa qu
 
 ### End-of-life = dívida técnica  
 Manter Ingress-NGINX além do suporte oficial representa acumular dívida técnica. Novas funcionalidades (por exemplo, suporte mais rico a roteamento, ambientes multi-tenant, políticas de tráfego avançadas) dificilmente serão atendidas. Além disso, migrar sob pressão no último momento implica mais custo e risco.
+
+
 
 # Recomendação de migração: adote o Gateway API
 
@@ -55,6 +61,8 @@ Principais características:
 - Alinha sua plataforma com práticas de DevOps e Platform Engineering: abstração, controle de papéis, governança de tráfego, multi-tenant.  
 - Migração antes de março 2026 dá uma janela confortável para planejamento, execução e mitigação de riscos — e evita fazer tudo na “corrida do fim”.  
 - Permite padronização de roteamento e gateway para todo o seu ecossistema (apps, analistas, desenvolvedores).
+
+
 
 # Plano de ação sugerido (como Platform Engineer)
 
@@ -86,6 +94,8 @@ Aqui vai um esqueleto de plano de ação que você pode adaptar ao seu contexto.
    - Após migrar todas as cargas críticas, planeje a remoção do controlador Ingress-NGINX nos clusters onde não mais necessário, ou mantenha somente para cargas legadas com risco amortizado.  
    - Documente que após março 2026 o controlador não receberá patches de segurança — qualquer uso posterior será **por conta e risco**.
 
+
+
 # Conclusão:
 
 O retirement do Ingress-NGINX marca uma mudança significativa no ecossistema Kubernetes e reforça a necessidade de evoluir a arquitetura de tráfego nas plataformas modernas. Com o fim do suporte em março de 2026, torna-se essencial adotar soluções mais robustas, sustentáveis e alinhadas ao futuro da tecnologia — e o Gateway API surge exatamente com essa proposta.
@@ -95,6 +105,8 @@ Ao oferecer um modelo mais modular, seguro e flexível, o Gateway API se consoli
 Se você já utiliza Kubernetes em produção, este é o momento ideal para iniciar a transição. Migrar agora significa reduzir riscos, eliminar dívida técnica e preparar sua plataforma para os próximos anos — com uma API moderna, bem suportada e criada para acompanhar a evolução contínua do ecossistema cloud native.
 
 **O futuro do tráfego no Kubernetes é o Gateway API. E quanto antes você fizer essa migração, mais preparada estará a sua plataforma.**
+
+
 
 # Fontes utilizadas para elaboração do artigo:
 
