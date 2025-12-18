@@ -6,10 +6,10 @@ subtitle: "DevOps para Iniciantes: Entendendo os Fundamentos"
 gh-badge: [star, fork, follow]
 tags: [DevOps]
 comments: true
-image: https://static.vecteezy.com/system/resources/previews/000/356/953/large_2x/devops-overlapping-logotype-circles-vector.jpg
+image: https://www.targetso.com/wp-content/uploads/2024/02/6-Best-DevOps-Practices-to-Know-scaled-1.jpg
 ---
 
-![DevOps](https://static.vecteezy.com/system/resources/previews/000/356/953/large_2x/devops-overlapping-logotype-circles-vector.jpg)
+![DevOps](https://www.targetso.com/wp-content/uploads/2024/02/6-Best-DevOps-Practices-to-Know-scaled-1.jpg)
 
 Bem-vindo ao mundo de DevOps, uma metodologia revolucionária que está transformando a maneira como as equipes de desenvolvimento e operações trabalham juntas para entregar software de forma mais rápida e eficiente. Se você é novo no conceito de DevOps, este artigo é o ponto de partida perfeito para entender seus fundamentos, benefícios e como você pode começar a implementá-lo em seus projetos.
 
